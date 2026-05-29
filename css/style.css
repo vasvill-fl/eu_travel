@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/hero_img.jpg');
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+#card_top {
+    width: 100%;
+}
+
+#card_bottom {
+    width: 50%;
+}
+
+#card_title {
+    text-align: center;
+}
+
+#hero_title {
+    font-size: 100px;
+}
+
+#hero_caption {
+    font-size: 35px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+#gallery_title {
+    text-align: center;
+}
+
+#table_title {
+    text-align: center;
+}
+
+.table {
+    text-align: center;
+}
+
+.galeria {
+    width: 75%;
+    height: 100%;
+}
+
+.img-caption {
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+}
+
+#end_title {
+    text-align: center;
+    font-size: 50px;
+}
+
+#kapcsolat_header {
+    color: white;
+    text-align: center;
+}
+
+#p1 {
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+}
